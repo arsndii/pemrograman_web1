@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Table</title>
+</head>
+<body>
+  
+  <!-- Table -->
+  <table border="1"  cellspacing="0" cellpadding="5">
+
+    <!-- Table Head -->
+    <thead align="center">
+      <tr>
+        <td rowspan="3"><b>No.</b></td>
+        <td rowspan="3"><b>NIM</b></td>
+        <td rowspan="3"><b>NAMA LENGKAP</b></td>
+        <td colspan="6"><b>NILAI</b></td>
+        <td rowspan="3"><b>TOTAL NILAI</b></td>
+      </tr>
+      <tr>
+        <td rowspan="2" width="80px"><b>ABSEN</b></td>
+        <td rowspan="2" width="80px"><b>TUGAS</b></td>
+        <td colspan="2"><b>UTS</b></td>
+        <td colspan="2"><b>UAS</b></td>
+      </tr>
+      <tr>
+        <td width="80px"><b>TEORI</b></td>
+        <td width="80px"><b>PRAKTEK</b></td>
+        <td width="80px"><b>TEORI</b></td>
+        <td width="80px"><b>PRAKTEK</b></td>
+      </tr>
+    </thead>
+
+    <!-- Table Body -->
+    <tbody>
+
+      <!-- Data 1 -->
+      <tr>
+        <td>1.</td>
+        <td align="center">2010010210</td>
+        <td>M. Yedi Arisandi</td>
+        <td align="center">90</td>
+        <td align="center">85</td>
+        <td align="center">90</td>
+        <td align="center">90</td>
+        <td align="center">80</td>
+        <td align="center">85</td>
+        <td align="center">90</td>
+      </tr>
+
+      <!-- Data 2 -->
+      <tr>
+        <td>1.</td>
+        <td align="center">2010010210</td>
+        <td>M. Yedi Arisandi</td>
+        <td align="center">90</td>
+        <td align="center">85</td>
+        <td align="center">90</td>
+        <td align="center">90</td>
+        <td align="center">80</td>
+        <td align="center">85</td>
+        <td align="center">90</td>
+      </tr>
+
+      <!-- Data 3 -->
+      <tr>
+        <td>1.</td>
+        <td align="center">2010010210</td>
+        <td>M. Yedi Arisandi</td>
+        <td align="center">90</td>
+        <td align="center">85</td>
+        <td align="center">90</td>
+        <td align="center">90</td>
+        <td align="center">80</td>
+        <td align="center">85</td>
+        <td align="center">90</td>
+      </tr>
+
+      <!-- Data 4 -->
+      <tr>
+        <td>1.</td>
+        <td align="center">2010010210</td>
+        <td>M. Yedi Arisandi</td>
+        <td align="center">90</td>
+        <td align="center">85</td>
+        <td align="center">90</td>
+        <td align="center">90</td>
+        <td align="center">80</td>
+        <td align="center">85</td>
+        <td align="center">90</td>
+      </tr>
+
+      <!-- Data 5 -->
+      <tr>
+        <td>1.</td>
+        <td align="center">2010010210</td>
+        <td>M. Yedi Arisandi</td>
+        <td align="center">90</td>
+        <td align="center">85</td>
+        <td align="center">90</td>
+        <td align="center">90</td>
+        <td align="center">80</td>
+        <td align="center">85</td>
+        <td align="center">90</td>
+      </tr>
+
+    </tbody>
+
+    <!-- Table Footer -->
+    <tfoot>
+      <tr>
+        <td colspan="9" align="right"><b>NILAI RATA-RATA</b></td>
+        <td align="center"><b>100</b></td>
+      </tr>
+      <tr>
+        <td colspan="9" align="right"><b>NILAI TERTINGGI</b></td>
+        <td align="center"><b>100</b></td>
+      </tr>
+      <tr>
+        <td colspan="9" align="right"><b>NILAI TERENDAH</b></td>
+        <td align="center"><b>100</b></td>
+      </tr>
+      <tr>
+        <td colspan="9" align="right"><b>JUMLAH MAHASISWA</b></td>
+        <td align="center"><b>100</b></td>
+      </tr>
+    </tfoot>
+
+  </table>
+
+  <br><br><hr><br><br>
+
+  <!-- Form -->
+    <form action="">
+      <table frame="box" cellpadding="10">
+
+        <tr>
+          <td colspan="2"><b>Registrasi Praktikum FTI</b></td>
+        </tr>
+
+        <!-- NPM -->
+        <tr>
+          <td>NPM</td>
+          <td>: <input type="text"></td>
+        </tr>
+
+        <!-- Nama Lengkap -->
+        <tr>
+          <td>Nama Lengkap</td>
+          <td>: <input type="text"></td>
+        </tr>
+
+        <!-- Jenis Kelamin -->
+        <tr>
+          <td>Jenis Kelamin</td>
+          <td>:
+            <input type="radio" name="gender" value="male" checked> Laki - Laki
+            <input type="radio" name="gender" value="female"> Perempuan
+          </td>
+        </tr>
+
+        <!-- Tempat Lahir -->
+        <tr>
+          <td>Tempat Lahir</td>
+          <td>: <input type="text"></td>
+        </tr>
+
+        <!-- Tanggal Lahir -->
+        <tr>
+          <td>Tanggal Lahir</td>
+          <td>: <input type="date"></td>
+        </tr>
+
+        <!-- Program Studi -->
+        <tr>
+          <td>Program Studi</td>
+          <td>: <select>
+              <option>- PILIH -</option>
+            </select></td>
+        </tr>
+
+        <!-- Email -->
+        <tr>
+          <td>Email</td>
+          <td>: <input type="text"></td>
+        </tr>
+
+        <!-- Materi -->
+        <tr>
+          <td>Materi</td>
+          <td>: <select>
+              <option>- PILIH -</option>
+            </select></td>
+        </tr>
+
+        <!-- Hari -->
+        <tr>
+          <td>Hari</td>
+          <td>: <select>
+              <option>- PILIH -</option>
+            </select></td>
+        </tr>
+
+        <!-- Jam -->
+        <tr>
+          <td>Jam</td>
+          <td>: <input type="time"></td>
+        </tr>
+
+        <!-- Button -->
+        <tr align="center">
+          <td colspan="2">
+            <input type="submit" value="Simpan">
+            <input type="reset">
+          </td>
+        </tr>
+
+      </table>
+    </form>
+
+</body>
+</html>
